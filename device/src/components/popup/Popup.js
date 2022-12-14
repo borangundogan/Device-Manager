@@ -115,7 +115,7 @@ function Popup(props) {
           <FormItem label="Format" required>
             <Radio.Group onChange={onFormChange}>
               <Space direction="vertical">
-                <Radio value={"16:9"} style={{ color: "", border: "orange" }}>
+                <Radio value={"16:9"}>
                   16:9
                 </Radio>
                 <Radio value={"4:3"}>4:3</Radio>
